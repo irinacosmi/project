@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="stop">Stop</string>
+    <string name="txt_view">txt view</string>
+    <string name="start">Start</string>
+    <string name="sensor_pulse">Sensor Pulse = ????</string>
+    <string name="txt_string">txt string</string>
+    <string name="running_default">Running Default</string>
+    <string name="_15_june">15 June</string>
+    <string name="_10m">10m</string>
+</resources>
