@@ -1,12 +1,21 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@color/background"
     android:layout_height="match_parent">
+
 
     <Button
         android:id="@+id/btnStart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:backgroundTint="@color/colorAccent"
         android:text="@string/start"/>
 
     <Button
@@ -14,6 +23,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btnStart"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:backgroundTint="@color/colorAccent"
         android:text="@string/stop" />
 
     <TextView
@@ -21,23 +36,33 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/txtString"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/white"
         android:text="@string/txt_view"
-        android:textSize="15sp" />
+        android:textSize="18sp" />
 
     <TextView
         android:id="@+id/txtString"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/white"
         android:text="@string/txt_string"
-        android:textSize="15sp" />
+        android:textSize="18sp" />
 
 
     <TextView
         android:id="@+id/pulseView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
         android:text="@string/sensor_pulse"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 </RelativeLayout>
